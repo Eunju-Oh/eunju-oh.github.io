@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Project1</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+</head>
+
+<body>
+
+    <div id="can">
+        <h2 class="heading">제주 투어(2021.03.16 ~ 2021.04.30)</h2>
+
+       <div class="row" style="width:85%; margin:20px auto;">
+
+        <div class="col-md-offset-2 col-md-10 well" >
+            <div class="row">
+              <div class="col-xs-12 col-sm-12 col-md-12">
+                <strong>주요기능-여행지 검색 페이지</strong><br><br>
+                <div class="row">
+                  <div class="col-xs-4 col-sm-4 col-md-4">
+                    <img src="projects/pro1_pic/1.png"  width="110%" height="200px"/>
+                  </div>
+                  <div class="col-xs-8 col-sm-8 col-md-8" style="font-size: 0.2px; text-align: left;">
+                    - 지역, 카테고리, 세부 카테고리에 따른 여행지 검색 기능입니다. 상위 탭 클릭 시, 하위 탭은 첫번째로 자동 지정되고 ajax로 조건에 맞는 여행지를 불러오도록 설계하였습니다.
+                    여행지에는 onclick 이벤트를 설정하여 클릭 시, 여행지 상세 페이지로 이동되도록 하였습니다.<br>
+                    - 지역 클릭 시, 해당 지역에 맞는 대표 사진이 보여집니다. 플러그인 owl carousel을 사용하여 자동 슬라이드가 되도록 하였습니다.<br>
+                    - 제주도의 당일부터 일주일치의 날씨 정보를 Open Weather API를 활용하여 가져왔습니다. Font Awesome Icon을 사용하여 날씨 아이콘 ui를 설정했습니다.<br>
+                    - 여행지 상세 페이지에서 여행지 좋아요를 클릭할 수 있습니다. 여행지마다의 좋아요 개수는 검색 페이지에서 나타나며, 지역별 인기여행지10 탭 클릭 시, 좋아요 순으로 출력됩니다.<br>
+                    - 한 페이지 당 6개의 여행지가 보이고, 한 블록에 3개의 페이지만 보이도록 페이징 처리 하였습니다.
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        
+        
+
+
+        <div class="col-md-12">
+            <div class="col-md-offset-1 col-md-10 well">  
+                <strong>주요기능-여행지 검색 페이지</strong><br>
+                    <div class="container">
+                        <div class="row">
+                            <div class=" col-md-6">
+                                <img src="projects/pro1_pic/1.png"  width="150px" height="150px"/>
+                            </div>
+                            <div class=" col-md-6" style="font-size: 5px;">
+                                - 지역, 카테고리, 세부 카테고리에 따른 여행지 검색 기능입니다. 상위 탭 클릭 시, 하위 탭은 첫번째로 자동 지정되고 ajax로 조건에 맞는 여행지를 불러오도록 설계하였습니다.
+                                여행지에는 onclick 이벤트를 설정하여 클릭 시, 여행지 상세 페이지로 이동되도록 하였습니다.<br>
+                                - 지역 클릭 시, 해당 지역에 맞는 대표 사진이 보여집니다. 플러그인 owl carousel을 사용하여 자동 슬라이드가 되도록 하였습니다.<br>
+                                - 제주도의 당일부터 일주일치의 날씨 정보를 Open Weather API를 활용하여 가져왔습니다. Font Awesome Icon을 사용하여 날씨 아이콘 ui를 설정했습니다.<br>
+                                - 여행지 상세 페이지에서 여행지 좋아요를 클릭할 수 있습니다. 여행지마다의 좋아요 개수는 검색 페이지에서 나타나며, 지역별 인기여행지10 탭 클릭 시, 좋아요 순으로 출력됩니다.<br>
+                                - 한 페이지 당 6개의 여행지가 보이고, 한 블록에 3개의 페이지만 보이도록 페이징 처리 하였습니다.  
+
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+
+        <div class="col-md-12">
+            <div class="col-md-offset-1 col-md-10 well">  
+                <strong>TypeScript</strong><br>
+                es6문법 사용 / 매개변수, 함수 등 활용 가능 <br><br>
+            </div>
+        </div> 
+        
+        <div class="col-md-12">
+            <div class="col-md-offset-1 col-md-10 well">  
+                <strong>Spring Framework</strong><br>
+                Ioc, pojo, maven, spring mvc 개념 학습 /
+                Spring Tiles 기반 사진 업,다운로드 사이트 구현
+            </div>
+        </div>
+
+
+
+    </div>  
+    </div>
+    <!-- End #education -->
+
+ 
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; 2021 eunju-oh
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <!--<div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://stackoverflow.com/" target="_blank"><i class="fa fa-stack-overflow" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://linkedin.com/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>-->
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+</body>
+
+</html>
